@@ -33,7 +33,7 @@ public class CustomerRepositoryImpl implements ICustomerRepository {
 	
 	@Override
 	public List<Customer> findAll() {
-		String ql="from customer";
+		String ql="from Customer";
         TypedQuery<Customer>query=entityManager.createQuery(ql,Customer.class);
         List<Customer>list=query.getResultList();
         return list;
