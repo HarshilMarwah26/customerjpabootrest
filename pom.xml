@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.cap.apps</groupId>
-    <artifactId>studentbootjparest</artifactId>
+    <artifactId>customerbootjparest</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
-    <name>studentbootjparest</name>
+    <name>customerbootjparest</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
